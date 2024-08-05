@@ -11,6 +11,10 @@ The goal of this directory is to reproduce the few-shot learning with a protein 
   - contains 3 functions; 2 plotting functions and 1 data processing function
   - User specifies the dataset (FASTA file), protein of interest (sheet/tab from Source.xlsx), fitness metric (column from Source.xlsx), and fitness cutoff value.
   - Read **Source.xlsx**, scrub data, output labeled data, and generate 3 plots
+# ESM
+- EMS = Evolutionary Scaling Model
+- EMS2-15B is a protein language model with 15B parameters from [Meta](https://huggingface.co/facebook/esm2_t48_15B_UR50D)
+- Using the ESM2 15B parameter model
 ## Citation (preprint)
 Rapid protein evolution by few-shot learning with a protein language model
 Kaiyi Jiang, Zhaoqing Yan, Matteo Di Bernardo, Samantha R. Sgrizzi, Lukas Villiger, Alisan Kayabolen, Byungji Kim, Josephine K. Carscadden, Masahiro Hiraizumi, Hiroshi Nishimasu, Jonathan S. Gootenberg, Omar O. Abudayyeh
