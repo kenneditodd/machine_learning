@@ -6,4 +6,4 @@ bioRxiv 2024.07.17.604015; doi: https://doi.org/10.1101/2024.07.17.604015
 ## Goal
 The goal of this project is to repeat creating the few-shot learning with a protein language model in the publication mentioned above.
 ## Step 1
-Jiang et al. 2024 utilized previously published data from [Using deep mutational scanning to benchmark variant effect predictors and identify disease mutations](https://doi.org/10.15252/msb.20199380).
+Jiang et al. 2024 utilized previously published data from [Using deep mutational scanning to benchmark variant effect predictors and identify disease mutations](https://doi.org/10.15252/msb.20199380). *Source.xlsx* is data table containing variant effect predictions (VEP) and deep mutational scanning (DMS) measurements from 31 previously published experiments for single amino acid subsitutions to benchmark 46 VEPs.
