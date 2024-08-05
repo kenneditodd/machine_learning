@@ -1,6 +1,6 @@
 # Rapid protein evolution by few-shot learning with a protein language model
 ## Goal
-The goal of this project is to reproduce the few-shot learning with a protein language model in [Rapid protein evolution by few-shot learning with a protein language model](https://doi.org/10.1101/2024.07.17.604015)
+The goal of this directory is to reproduce the few-shot learning with a protein language model created in [Rapid protein evolution by few-shot learning with a protein language model](https://doi.org/10.1101/2024.07.17.604015)
 ## Background
 - Jiang et al. 2024 utilized a previously published table containing single amino acid VEPs and DMS measurments used for benchmarking
   - [Using deep mutational scanning to benchmark variant effect predictors and identify disease mutations](https://doi.org/10.15252/msb.20199380)
