@@ -9,8 +9,8 @@ The goal of this directory is to reproduce the few-shot learning with a protein 
   - **Source.xlsx** is an excel file containing VEP measurements from 31 previously published DMS experiments for single amino acid subsitutions. This was used to benchmark 46 VEPs. Each tab is for a specific protein. Within each tab, rows are variants and columns are VEP or DMS metrics.
 ## 01_explore_and_scrub.ipynb
   - contains 3 functions; 2 plotting functions and 1 data processing function
-  - Read **Source.xlsx**, scrub data, output labeled data, and generate 3 plots
   - User specifies the dataset (FASTA file), protein of interest (sheet/tab from Source.xlsx), fitness metric (column from Source.xlsx), and fitness cutoff value.
+  - Read **Source.xlsx**, scrub data, output labeled data, and generate 3 plots
 ## Citation (preprint)
 Rapid protein evolution by few-shot learning with a protein language model
 Kaiyi Jiang, Zhaoqing Yan, Matteo Di Bernardo, Samantha R. Sgrizzi, Lukas Villiger, Alisan Kayabolen, Byungji Kim, Josephine K. Carscadden, Masahiro Hiraizumi, Hiroshi Nishimasu, Jonathan S. Gootenberg, Omar O. Abudayyeh
