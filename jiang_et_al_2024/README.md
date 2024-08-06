@@ -2,9 +2,10 @@
 ## Goal
 The goal of this directory is to reproduce the few-shot learning with a protein language model created in [Rapid protein evolution by few-shot learning with a protein language model](https://doi.org/10.1101/2024.07.17.604015)
 ## Background
-- Jiang et al. 2024 utilized a previously published table containing single amino acid VEPs and DMS measurments used for benchmarking
+- This publication utilized a previously published table containing single amino acid VEPs and DMS measurments used for benchmarking
   - [Using deep mutational scanning to benchmark variant effect predictors and identify disease mutations](https://doi.org/10.15252/msb.20199380)
-- Used EMS2-12B protein language model
+- Used EMS2-12B protein language model created by Meta
+  - https://huggingface.co/facebook/esm2_t36_3B_UR50D 
 ## 01_explore_and_scrub.ipynb
 - User specifies the dataset (FASTA file), protein of interest (sheet/tab from Source.xlsx), fitness metric (column from Source.xlsx), and fitness cutoff value.
 - Read **Source.xlsx**, scrub data, output labeled data, and generate 3 plots.
